@@ -13,7 +13,7 @@
 		194E6A1B1B075DF100188B27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194E6A1A1B075DF100188B27 /* Images.xcassets */; };
 		194E6A1E1B075DF100188B27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 194E6A1C1B075DF100188B27 /* LaunchScreen.xib */; };
 		194E6A2A1B075DF100188B27 /* RoundedRectLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194E6A291B075DF100188B27 /* RoundedRectLabelTests.swift */; };
-		194E6A341B075E1600188B27 /* ChatBubbleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194E6A331B075E1600188B27 /* ChatBubbleLabel.swift */; };
+		194E6A361B075ECC00188B27 /* RoundedRectLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194E6A351B075ECC00188B27 /* RoundedRectLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		194E6A231B075DF100188B27 /* RoundedRectLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundedRectLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		194E6A281B075DF100188B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		194E6A291B075DF100188B27 /* RoundedRectLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectLabelTests.swift; sourceTree = "<group>"; };
-		194E6A331B075E1600188B27 /* ChatBubbleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatBubbleLabel.swift; path = ../../../ChatBubble/ChatBubble/ChatBubbleLabel.swift; sourceTree = "<group>"; };
+		194E6A351B075ECC00188B27 /* RoundedRectLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedRectLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			children = (
 				194E6A131B075DF100188B27 /* AppDelegate.swift */,
 				194E6A151B075DF100188B27 /* ViewController.swift */,
-				194E6A331B075E1600188B27 /* ChatBubbleLabel.swift */,
+				194E6A351B075ECC00188B27 /* RoundedRectLabel.swift */,
 				194E6A171B075DF100188B27 /* Main.storyboard */,
 				194E6A1A1B075DF100188B27 /* Images.xcassets */,
 				194E6A1C1B075DF100188B27 /* LaunchScreen.xib */,
@@ -215,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194E6A361B075ECC00188B27 /* RoundedRectLabel.swift in Sources */,
 				194E6A161B075DF100188B27 /* ViewController.swift in Sources */,
-				194E6A341B075E1600188B27 /* ChatBubbleLabel.swift in Sources */,
 				194E6A141B075DF100188B27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
